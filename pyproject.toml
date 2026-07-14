@@ -1,0 +1,14 @@
+[project]
+name = "brainfood-workshop"
+version = "0.1.0"
+description = "A hands-on introduction to deep learning for EEG data."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "braindecode>=1.6.1",
+    "ipykernel>=7.3.0",
+    "jupyterlab>=4.6.1",
+    "mne>=1.12.1",
+    "pip>=26.1.2",
+    "torch>=2.13.0",
+]
